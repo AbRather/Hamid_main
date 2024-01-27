@@ -10,14 +10,16 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: white;
         }
 
         header {
-            background-color: #333;
-            color: white;
+            background-color: rgb(215, 215, 215);
+            color: black;
             padding: 20px;
             text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            font-size: x-large;
         }
 
         .website {
@@ -29,23 +31,40 @@
 
         section {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 30px auto;
             padding: 20px;
             background-color: white;
-            border-radius: 8px;
+            border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Quicksand', sans-serif;
         }
 
         h1 {
-            color: #4dc1ce;
+            color: black;
         }
 
-        .project {
-            margin: 20px 0;
+        .coding {
+            margin:0px 0;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+
+        }
+
+        .aerospace {
+            margin: 0px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
         }
 
         footer {
@@ -57,45 +76,36 @@
             width: 100%;
         }
     </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header>
         <h1>Abdul Hamid Rather</h1>
-        <p>Aerospace Engineering Student with a strong interest in Programming</p>
+        <p>Aerospace Engineering Student </br>
+        Propulsion | Web Development</p>
     </header>
+    <p class="paragraph1">
+        
+    </p>
 
     <section>
-        <h2>Topics</h2>
-        <div class="project">
-            <h3>Portfolio</h3>
+        <div class="aerospace">
+            <h2><a href="./Aerospaceengineering/aerospace.html">Aerospace engineering</a></h3>
             <p></p>
-            <a href="./References/index.html">View</a>
+            
         </div>
+    </section>
 
-        <div class="project">
-            <h3>Project 2: Birthday Invite Project</h3>
-            <p>Description of Project 2. Birthday Invite Project.</p>
-            <a href="./Birthday Invite/index.html">View Project</a>
-        </div>
-
-        <div class="project">
-            <h3>Project 3: Project Title</h3>
-            <p>Description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">View Project</a>
-        </div>
-
-        <div class="project">
-            <h3>Project 4: Project Title</h3>
-            <p>Description of Project 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">View Project</a>
-        </div>
-
-        <div class="project">
-            <h3>Project 5: Project Title</h3>
-            <p>Description of Project 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">View Project</a>
+    <section>
+        <div class="coding">
+            <h2><a href="./programming/coding.html">Web development</a></h3>
+            
         </div>
     </section>
 
